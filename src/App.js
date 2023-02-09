@@ -69,8 +69,8 @@ const onChange = ()=> { let result=[];
                         if(inputCheckboxMale.current.checked){result.push(inputCheckboxMale.current.value)};
                         if(inputCheckboxFemale.current.checked){result.push(inputCheckboxFemale.current.value)};
                         if(inputCheckboxNone.current.checked){result.push(inputCheckboxNone.current.value)};
-                        setCount(contacts);console.log(result);
-                        return  result.length<1?null:filterContakt(result);
+                        setCount(contacts);
+                        return  filterContakt(result);
 };
 
 
