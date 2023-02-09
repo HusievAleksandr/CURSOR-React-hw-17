@@ -1,0 +1,56 @@
+.header{
+  position: relative;
+  top: 0;  
+  width: 100%; 
+  font-size: 24px;
+  
+}
+.header_main{
+  display: block;  
+  margin: 0 auto;
+  text-align: center;
+
+}
+
+button { 
+width: 100px;
+height: 40px;
+margin: 0 10px;
+font-size: 16px;
+color: #ff6;
+background-color: rgb(7, 7, 7);
+background-clip: padding-box;
+border: 1px solid #ff6;
+border-radius: 0.25rem;
+transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+border-bottom: 5px solid rgb(112, 112, 4); 
+cursor: pointer;
+}
+
+input[type="text"] {
+  font-size: 16px;
+  margin-left: 10px;
+  width: 200px;
+  height: 30px;
+  cursor: pointer;
+}
+input[type="checkbox"] {
+  margin-right: 15px;
+  cursor: pointer;
+}
+ 
+
+
+
+button:hover {
+  background-color: #ff6; 
+  border-color: rgb(112, 112, 4); 
+  color: rgb(17, 17, 17);
+}
+
+button:active {
+  border: none;
+}
+
+
+
